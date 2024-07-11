@@ -13,6 +13,7 @@
 		CF6C6CA82C3F40FE0059A762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6C6CA62C3F40FE0059A762 /* Main.storyboard */; };
 		CF6C6CAA2C3F40FF0059A762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6C6CA92C3F40FF0059A762 /* Assets.xcassets */; };
 		CF6C6CAD2C3F40FF0059A762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6C6CAB2C3F40FF0059A762 /* LaunchScreen.storyboard */; };
+		CF6C6CB52C3FB1120059A762 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6C6CB42C3FB1120059A762 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CF6C6CA92C3F40FF0059A762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF6C6CAC2C3F40FF0059A762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6C6CAE2C3F40FF0059A762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6C6CB42C3FB1120059A762 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		CF6C6C942C3F40FE0059A762 = {
 			isa = PBXGroup;
 			children = (
+				CF6C6CB42C3FB1120059A762 /* Game.swift */,
 				CF6C6C9F2C3F40FE0059A762 /* Apple Pie */,
 				CF6C6C9E2C3F40FE0059A762 /* Products */,
 			);
@@ -141,6 +144,7 @@
 				CF6C6CA52C3F40FE0059A762 /* ViewController.swift in Sources */,
 				CF6C6CA12C3F40FE0059A762 /* AppDelegate.swift in Sources */,
 				CF6C6CA32C3F40FE0059A762 /* SceneDelegate.swift in Sources */,
+				CF6C6CB52C3FB1120059A762 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
